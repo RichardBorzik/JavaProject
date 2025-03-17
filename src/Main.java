@@ -5,8 +5,6 @@ public class Main {
         String firma = "Oracle Inc.";
         int vek = 40;
 
-        System.out.println("ZMENA V PROGRAME");
-
         System.out.println("Hello World");
         System.out.println(celeMeno + " pracuje v spoločnosti " + firma + " a má " + vek + " rokov.");
         System.out.println("TM Consulting s. r. o.");
