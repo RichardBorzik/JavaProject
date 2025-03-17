@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         String name = "Jozef";
-        String celeMeno = "John Doe";
+        String celeMeno = "Richard Boržik";
         String firma = "Oracle Inc.";
         int vek = 40;
+
+        System.out.println("ZMENA V PROGRAME");
 
         System.out.println("Hello World");
         System.out.println(celeMeno + " pracuje v spoločnosti " + firma + " a má " + vek + " rokov.");
