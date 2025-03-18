@@ -1,4 +1,4 @@
-package sk.tmconsulting.ulohy;
+package sk.tmconsulting.testy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

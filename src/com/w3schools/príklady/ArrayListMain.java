@@ -51,7 +51,9 @@ public class ArrayListMain {
         myNumbers.add(150);
         myNumbers.add(20);
         myNumbers.add(25);
-        Collections.sort(myNumbers);
+        Collections.sort(myNumbers); // Zoradi cisla od najmensieho po najvacsie
+
+        // Vypise vsetky cisla z ArryList, foreach
         for (int number : myNumbers) {
             System.out.println(number);
         }

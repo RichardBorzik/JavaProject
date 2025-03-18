@@ -1,4 +1,4 @@
-package sk.tmconsulting.ulohy;
+package sk.tmconsulting.testy;
 
 public class Circle {
 

@@ -8,6 +8,7 @@ public class ScannerTestMain {
         int vek = Integer.parseInt(scanner.nextLine()); // Prečítame ako String a konvertujeme na číslo
 
         System.out.print("Zadajte meno: ");
+
         String meno = scanner.nextLine();
 
         System.out.println("Vek: " + vek);
