@@ -13,13 +13,13 @@ public class PremenneUlohaMain {
         Date aktualnyDatum = new Date();
         SimpleDateFormat formatDatumu = new SimpleDateFormat("dd.MM.yyyy");
 
-        System.out.println("Študent %s" + meno + " sa narodil " + datum + ", z maturitnej skúšky má známku " + znamka + " a od " + obdobie + " nastúpi do nového zamestnania ako Java programátor.");
-        System.out.println("V Bratislave dňa " + formatDatumu.format(aktualnyDatum));
 //        System.out.println("Dvojnásobok priemernej známky je " + znamkax2);
 
 //        System.out.printf("Známka naformatovaná vo forme desatinnej čiarky je %.2f", znamka);
 
         System.out.printf("Študent %s sa narodil %s, z maturitnej skúšky ma známku %.1f a od %s nastúpi do nového zamestnania ako Java programátor.", meno, datum, znamka, obdobie);
+        System.out.println();
+        System.out.println("V Bratislave dňa " + formatDatumu.format(aktualnyDatum));
 
     }
 }
