@@ -30,7 +30,7 @@ public class CyklyMain {
 
         System.out.println(); //Prazdny riadok
 
-        // Inicializacia pola cars s naplnenim kokretnych hodnot jednotlivych znaciek automobiliek
+        // Inicializacia pola cars s naplnenim konkretnych hodnot jednotlivych znaciek automobiliek
         String[] automobilky = {"Volvo", "BMW", "Ford", "Mazda"};
         for (String automobilka : automobilky) {
             System.out.println(automobilka);

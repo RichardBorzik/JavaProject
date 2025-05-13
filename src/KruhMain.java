@@ -6,31 +6,29 @@ public class KruhMain {
  Ak si trúfate, môžete spraviť program, ktorý vypočíta obvod a obsah KRUHU (Hunt: je potrebné zistiť ako použiť, resp. napísať Ludolfovo číslo (PI))
 */
 
-    public static double obsah(double cislo1, double cislo2) {
-        return cislo1 * cislo1;
-    }
-
-    public static double obvod(double cislo3, double cislo4) {
-        return cislo3*2 + cislo4*2;
-    }
-
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("Zadaj prvé číslo");
-        double a = scn.nextDouble();
+        System.out.println("Zadaj polomer kruhu:");
+        double r = scn.nextDouble();
 
-        System.out.println("Zadaj druhé číslo");
-        double b = scn.nextDouble();
+        scn.nextLine();
 
         System.out.println("Zadaj čo chceš vypočítať? obsah = S obvod = o" );
 
-        System.out.println("Obsah obdlznika je " + obsah(a, b));
+        String volba = scn.nextLine();
 
-        System.out.print("Obvod obdlznika je " + obvod(a, b));
-        System.out.println(Math.PI);
+        if (volba.equals("S")) {
+            double obsah = Math.PI * r * r;
+            System.out.println("Obsah kruhu je " + obsah);
 
-
+        }else if (volba.equals("o")) {
+            double obvod = 2 * Math.PI * r;
+            System.out.println(" Obvod kruhu je " + obvod);
+        }else {
+            System.out.println("Chyba");
+        }
+        scn.close();
     }
 }
